@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-text-main;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/30 rounded-full hover:bg-primary/50 transition-colors;
+}
+
+.glass-nav {
+  @apply backdrop-blur-md bg-background/80 border-b border-white/5;
+}
+
+.glass-card {
+  @apply bg-surface/50 backdrop-blur-sm border border-white/5 hover:border-primary/30 transition-all duration-300;
+}
