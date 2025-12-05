@@ -7,11 +7,11 @@ const Projects = () => {
     {
       title: 'E-Commerce Dashboard',
       desc: 'A comprehensive analytics dashboard for online retailers featuring real-time data visualization.',
-      tech: ['React', 'Tailwind', 'Recharts'],
+      tech: ['HTML', 'CSS', 'JS'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
     },
     {
-      title: 'Bin to Bank',
+      title: 'Bin to Bank Dashboard',
       desc: 'A sustainable fintech platform rewarding users with digital credits for recycling waste efficiently.',
       tech: ['React', 'Node.js', 'Firebase'],
       image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800',

@@ -4,10 +4,10 @@ import { Code, Palette, Terminal, Cpu } from 'lucide-react';
 
 const About = () => {
   const skills = [
-    { name: 'Frontend Dev', icon: <Code />, desc: 'React, TypeScript, Tailwind' },
-    { name: 'UI/UX Design', icon: <Palette />, desc: 'Figma, Prototyping' },
-    { name: 'Backend Basics', icon: <Terminal />, desc: 'Node.js, Express' },
-    { name: 'Optimization', icon: <Cpu />, desc: 'Performance, SEO' },
+    { name: 'Frontend Dev', icon: <Code />, desc: 'HTML, CSS, JS' },
+    { name: 'UI/UX Design', icon: <Palette />, desc: 'Figma' },
+    { name: 'Backend Basics', icon: <Terminal />, desc: 'Node.js' },
+		{ name: 'Programs', icon: <Cpu />, desc:'Python, Java'}
   ];
 
   return (
