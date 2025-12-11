@@ -9,12 +9,14 @@ const Projects = () => {
       desc: 'A comprehensive analytics dashboard for online retailers featuring real-time data visualization.',
       tech: ['HTML', 'CSS', 'JS'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
+      github: 'https://github.com/monish2106/e-commerce',
     },
     {
       title: 'Bin to Bank Dashboard',
       desc: 'A sustainable fintech platform rewarding users with digital credits for recycling waste efficiently.',
       tech: ['React', 'Node.js', 'Firebase'],
       image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800',
+      github: 'https://github.com/monish2106/bin-to-bank',
     },
   ];
 
@@ -49,9 +51,9 @@ const Projects = () => {
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <button className="p-2 bg-white text-black rounded-full hover:bg-primary hover:text-white transition-colors">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 bg-white text-black rounded-full hover:bg-primary hover:text-white transition-colors">
                     <Github size={20} />
-                  </button>
+                  </a>
                   <button className="p-2 bg-white text-black rounded-full hover:bg-primary hover:text-white transition-colors">
                     <ExternalLink size={20} />
                   </button>
