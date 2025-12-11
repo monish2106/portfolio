@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: 'E-Commerce Dashboard',
       desc: 'A comprehensive analytics dashboard for online retailers featuring real-time data visualization.',
-      tech: ['HTML', 'CSS', 'JS'],
+      tech: ['HTML', 'CSS', 'JAVASCRIPT'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
       github: 'https://github.com/monish2106/e-commerce',
     },
