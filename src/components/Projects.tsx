@@ -1,20 +1,20 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
     {
       title: 'E-Commerce Dashboard',
       desc: 'A comprehensive analytics dashboard for online retailers featuring real-time data visualization.',
-      tech: ['HTML', 'CSS', 'JS'],
+      tech: ['HTML', 'CSS', 'JAVASCRIPT'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
       github: 'https://github.com/monish2106/e-commerce',
     },
     {
       title: 'Bin to Bank Dashboard',
       desc: 'A sustainable fintech platform rewarding users with digital credits for recycling waste efficiently.',
-      tech: ['React', 'Node.js', 'Firebase'],
+      tech: ['HTML', 'CSS', 'JAVASCRIPT'],
       image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800',
       github: 'https://github.com/monish2106/bin-to-bank',
     },
@@ -54,9 +54,6 @@ const Projects = () => {
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 bg-white text-black rounded-full hover:bg-primary hover:text-white transition-colors">
                     <Github size={20} />
                   </a>
-                  <button className="p-2 bg-white text-black rounded-full hover:bg-primary hover:text-white transition-colors">
-                    <ExternalLink size={20} />
-                  </button>
                 </div>
               </div>
               <div className="p-6">
