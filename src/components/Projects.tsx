@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -54,9 +54,6 @@ const Projects = () => {
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 bg-white text-black rounded-full hover:bg-primary hover:text-white transition-colors">
                     <Github size={20} />
                   </a>
-                  <button className="p-2 bg-white text-black rounded-full hover:bg-primary hover:text-white transition-colors">
-                    <ExternalLink size={20} />
-                  </button>
                 </div>
               </div>
               <div className="p-6">
