@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: 'Bin to Bank Dashboard',
       desc: 'A sustainable fintech platform rewarding users with digital credits for recycling waste efficiently.',
-      tech: ['React', 'Node.js', 'Firebase'],
+      tech: ['HTML', 'CSS', 'JAVASCRIPT'],
       image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800',
       github: 'https://github.com/monish2106/bin-to-bank',
     },
